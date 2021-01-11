@@ -1,3 +1,4 @@
+> https://maximlopez.github.io/BeCode-Animation/
 # BeCode-Animation
 
 ## Objectifs
@@ -21,7 +22,7 @@
 
 ## Fichier HTML
 
-```markdown
+``` 
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -39,7 +40,6 @@
     <article class="imgBx">
         <img class="img1 animated bounceInDown" src="./assets/img/BeCode.svg" alt="Logo BeCode">
     </article>
-    <!--  -->
     <!-- Caption -->
     <article class="caption">
         <h1 class="glitch" data-texte="&#139; In Code We Trust &#155;"><span class="text" id="str"> &#139; In Code We
@@ -58,7 +58,7 @@
 ```
 
 ## Fichier CSS
-``` markdown
+```
 /* PHRASE : In Code We Trust */
 body {
   display: -webkit-box;
@@ -137,7 +137,7 @@ h1 {
 ```
 
 ## Fichier JavaScript
-``` markdown
+``` 
 let newElement = document.querySelector("img")
 
 
