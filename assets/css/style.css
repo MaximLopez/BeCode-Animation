@@ -1,0 +1,74 @@
+/* PHRASE : In Code We Trust */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F5F5DC;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 50px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-shadow: 1px 1px #e2d59c, 2px 2px #e2d59c, 3px 3px #e2d59c, 4px 4px #e2d59c, 5px 5px #e2d59c, 6px 6px #e2d59c, 7px 7px #e2d59c, 8px 8px #e2d59c, 9px 9px #e2d59c, 10px 10px #e2d59c, 11px 11px #e2d59c, 12px 12px #e2d59c, 13px 13px #e2d59c, 14px 14px #e2d59c, 15px 15px #e2d59c, 16px 16px #e2d59c, 17px 17px #e2d59c, 18px 18px #e2d59c, 19px 19px #e2d59c, 20px 20px #fff1b1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.imgBx {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+          transform-origin: left;
+}
+
+.type-cursor {
+  color: black;
+  font-size: 1em;
+  -webkit-animation: blink 0.5s infinite linear;
+          animation: blink 0.5s infinite linear;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

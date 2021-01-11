@@ -1,0 +1,72 @@
+/* PHRASE : In Code We Trust */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5DC;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    text-shadow: 1px 1px rgb(226, 213, 156),
+        2px 2px rgb(226, 213, 156),
+        3px 3px rgb(226, 213, 156),
+        4px 4px rgb(226, 213, 156),
+        5px 5px rgb(226, 213, 156),
+        6px 6px rgb(226, 213, 156),
+        7px 7px rgb(226, 213, 156),
+        8px 8px rgb(226, 213, 156),
+        9px 9px rgb(226, 213, 156),
+        10px 10px rgb(226, 213, 156),
+        11px 11px rgb(226, 213, 156),
+        12px 12px rgb(226, 213, 156),
+        13px 13px rgb(226, 213, 156),
+        14px 14px rgb(226, 213, 156),
+        15px 15px rgb(226, 213, 156),
+        16px 16px rgb(226, 213, 156),
+        17px 17px rgb(226, 213, 156),
+        18px 18px rgb(226, 213, 156),
+        19px 19px rgb(226, 213, 156),
+        20px 20px rgb(255, 241, 177);
+        margin:0;
+        padding:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow:hidden;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.imgBx{
+    position: relative;
+    width:500px;
+    height:500px;
+}
+
+.img1{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transform-origin: left;
+}
+
+.type-cursor {
+    color:black;
+    font-size: 1em;
+    animation: blink 0.5s infinite linear;
+}
+
+@keyframes blink {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
